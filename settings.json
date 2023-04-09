@@ -16,6 +16,7 @@
     "analytics": {
       "environment": "production"
     },
+    "mailUrl": "smtps://apikey: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@smtp.sendgrid.net:465",
     "testServer": false
   }
 }
