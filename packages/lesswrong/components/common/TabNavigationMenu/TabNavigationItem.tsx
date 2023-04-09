@@ -38,7 +38,10 @@ const styles = (theme: ThemeType): JssStyles => ({
         paddingLeft: 16,
         paddingRight: 16,
       } : {
-        padding: 16,
+        paddingTop: 7,
+        paddingBottom: 8,
+        paddingLeft: 28,
+        paddingRight: 16,
       }
     ),
     display: "flex",

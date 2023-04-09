@@ -678,6 +678,7 @@ importComponent("BooksProgressBar", () => require('../components/sequences/Books
 importComponent("LoginToTrack", () => require('../components/sequences/LoginToTrack'));
 importComponent("EACoreReading", () => require('../components/sequences/EACoreReading'));
 importComponent("LWCoreReading", () => require('../components/sequences/LWCoreReading'));
+importComponent("KainiCoreReading", () => require('../components/sequences/KainiCoreReading'));
 
 importComponent("CollectionsCardContainer", () => require('../components/collections/CollectionsCardContainer'));
 importComponent("SequencesHighlightsCollection", () => require('../components/sequences/SequencesHighlightsCollection'));

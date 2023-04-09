@@ -18,17 +18,17 @@ const styles = (theme: ThemeType): JssStyles => ({
 const LibraryPage = ({classes}: {
   classes: ClassesType,
 }) => {
-  const { SingleColumnSection, SectionTitle, Divider, SequencesNewButton, LWCoreReading, SequencesGridWrapper, Typography } = Components
+  const { SingleColumnSection, SectionTitle, Divider, SequencesNewButton, KainiCoreReading, SequencesGridWrapper, Typography } = Components
 
   return <React.Fragment>
     <AnalyticsContext pageContext="sequencesHome">
       <SingleColumnSection>
-        <Typography variant="display3" className={classes.pageTitle}>The Library</Typography>
+        <Typography variant="display3" className={classes.pageTitle}>Library</Typography>
       </SingleColumnSection>
-      <SingleColumnSection>
-        <LWCoreReading />
-      </SingleColumnSection>
-      <Divider />
+      {/* <SingleColumnSection>
+        <KainiCoreReading />
+      </SingleColumnSection> */}
+      {/* <Divider /> */}
       <SingleColumnSection>
         <SectionTitle title="Curated Sequences" />
         <div className={classes.sequencesGridWrapperWrapper}>
@@ -40,7 +40,7 @@ const LibraryPage = ({classes}: {
           />
         </div>
       </SingleColumnSection>
-      <Divider />
+      {/* <Divider /> */}
       <SingleColumnSection>
         <SectionTitle  title="Community Sequences" >
           <SequencesNewButton />

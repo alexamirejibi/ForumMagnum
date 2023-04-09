@@ -20,6 +20,7 @@ config.rb
 
 dump/
 dump/*
+mongod --dbpath ./myLocalDatabase
 
 settings*.json
 
@@ -93,3 +94,5 @@ schema/schema_to_accept.sql
 .branchdbcache
 
 ml
+up_start.sh
+

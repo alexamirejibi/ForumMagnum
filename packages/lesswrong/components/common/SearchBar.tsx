@@ -155,7 +155,9 @@ const SearchBar = ({onSetIsActive, searchResultsArea, classes}: {
   const { SearchBarResults } = Components
 
   if(!isAlgoliaEnabled()) {
-    return <div>Search is disabled (Algolia App ID not configured on server)</div>
+    return <div>
+      {/* Search is disabled (Algolia App ID not configured on server) */}
+      </div>
   }
 
   return <div className={classes.root} onKeyDown={handleKeyDown}>

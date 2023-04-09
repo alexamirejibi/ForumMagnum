@@ -153,7 +153,7 @@ export const baseTheme: BaseThemeSpecification = {
           color: palette.grey[800],
           fontSize: '2.8rem',
           marginTop: '1em'
-        },
+        }, 
         display3: {
           color: palette.grey[800],
           marginTop: '1.2em',

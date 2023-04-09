@@ -115,7 +115,7 @@ const SearchPage = ({classes}:{
 
   if(!isAlgoliaEnabled()) {
     return <div className={classes.root}>
-      Search is disabled (Algolia App ID not configured on server)
+      {/* Search is disabled (Algolia App ID not configured on server) */}
     </div>
   }
 

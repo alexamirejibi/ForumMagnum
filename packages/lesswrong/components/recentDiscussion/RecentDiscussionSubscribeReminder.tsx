@@ -117,7 +117,7 @@ const RecentDiscussionSubscribeReminder = ({classes}: {
   const [loading, setLoading] = useState(false);
   const { flash } = useMessages();
   const {WrappedLoginForm, SignupSubscribeToCurated, Loading, AnalyticsInViewTracker } = Components;
-  const subscriptionDescription = '(2-3 posts per week, selected by the LessWrong moderation team.)';
+  const subscriptionDescription = '(2-3 posts per week, selected by the moderation team.)';
   const { captureEvent } = useTracking({eventProps: {pageElementContext: "subscribeReminder"}});
   
   // Show admins a random version of the widget. Makes sure we notice if it's intrusive/bad.
@@ -234,7 +234,7 @@ const RecentDiscussionSubscribeReminder = ({classes}: {
     // Show the confirmation after the user subscribes
     const confirmText = forumTypeSetting.get() === 'EAForum' ?
       "You're subscribed to the EA Forum Digest" :
-      "You are subscribed to the best posts of LessWrong!"
+      "You are subscribed!"
     return <AnalyticsWrapper branch="already-subscribed">
       <div className={classes.message}>
         <CheckRounded className={classes.checkIcon} />
@@ -330,7 +330,7 @@ const RecentDiscussionSubscribeReminder = ({classes}: {
     // activated), and sends a confirmation email (if needed).
     const subscribeTextNode = forumTypeSetting.get() === 'EAForum' ? eaForumSubscribePrompt : (
       <div className={classes.message}>
-        You previously unsubscribed from all emails from LessWrong.
+        You previously unsubscribed from all emails.
         Re-subscribe to get the best posts emailed to you! {subscriptionDescription}
       </div>
     );
@@ -353,7 +353,7 @@ const RecentDiscussionSubscribeReminder = ({classes}: {
     // verified) resends the verification email.
     const subscribeTextNode = forumTypeSetting.get() === 'EAForum' ? eaForumSubscribePrompt : (
       <div className={classes.message}>
-        Subscribe to get the best of LessWrong emailed to you. {subscriptionDescription}
+        Subscribe to get the best of Underpass emailed to you. {subscriptionDescription}
       </div>
     );
     return <AnalyticsWrapper branch="logged-in-not-subscribed">

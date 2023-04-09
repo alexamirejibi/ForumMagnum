@@ -50,13 +50,16 @@ const styles = (theme: ThemeType): JssStyles => ({
   title: {
     flex: 1,
     position: "relative",
-    top: 3,
+    top: 1,
     paddingRight: theme.spacing.unit,
-    color: theme.palette.text.secondary,
+    // paddingTop: 5,
+    color: theme.palette.text.primary,
   },
   titleLink: {
-    color: theme.palette.header.text,
-    fontSize: 19,
+    // color: theme.palette.header.text,
+    // color: "#21201A",
+    // fontSize: 35,
+    fontSize: 40,
     '&:hover, &:focus, &:active': {
       textDecoration: 'none',
       opacity: 0.7,

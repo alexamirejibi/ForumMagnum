@@ -1086,6 +1086,11 @@ const forumSpecificRoutes = forumSelect<Route[]>({
       getPingback: async (parsedUrl) => await getPostPingbackById(parsedUrl, contactPostIdSetting.get()),
       background: postBackground
     },
+    {
+      name: 'library',
+      path: '/library',
+      componentName: 'LibraryPage',
+    },
   ],
 })
 

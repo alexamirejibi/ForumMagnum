@@ -1,8 +1,5 @@
-import { defaultThemeOptions } from "../themeNames";
-
 const sansSerifStack = [
   'GreekFallback', // Ensures that greek letters render consistently
-  // 'apolline',
   'Calibri',
   '"Gill Sans"',
   '"Gill Sans MT"',
@@ -10,7 +7,6 @@ const sansSerifStack = [
   'Myriad',
   '"Liberation Sans"',
   '"Nimbus Sans L"',
-  'Open Sans',
   'Tahoma',
   'Geneva',
   '"Helvetica Neue"',
@@ -20,11 +16,7 @@ const sansSerifStack = [
 ].join(',')
 
 const serifStack = [
-  'Alegreya',
-  'apolline',
-  // "Grenze",
-  'warnock-pro',
-  // 'IM Fell English SC',
+  // 'warnock-pro',
   'Palatino',
   '"Palatino Linotype"',
   '"Palatino LT STD"',
@@ -33,62 +25,33 @@ const serifStack = [
   'serif'
 ].join(',')
 
-
 export const lessWrongTheme: SiteThemeSpecification = {
   shadePalette: {
     fonts: {sansSerifStack, serifStack},
   },
   componentPalette: (shadePalette: ThemeShadePalette) => ({
     primary: {
-      // main: '#5f9b65',
-      main: '#A9A496',
+      main: '#5f9b65',
     },
     secondary: {
-      // main: '#5f9b65',
-      main: '#A9A496',
+      main: '#5f9b65',
     },
     lwTertiary: {
-      // main: "#69886e",
-      main: "#7f7979",
+      main: "#69886e",
       dark: "#21672b"
     },
     error: {
       main: '#bf360c',
     },
-    background: {
-      // if shade.Pale
-      default: shadePalette.type === 'light' ? '#F2F2EF' : shadePalette.grey[50],
-      // primaryDim: '#e2f1f4',
-      // paper: shadePalette.type === 'light' ? '#F2F2EF' : shadePalette.grey[200],
-      pageActiveAreaBackground: shadePalette.type === 'light' ? '#FCFCFB' : shadePalette.grey[50],
-    },
-    panelBackground: {
-      default: shadePalette.type === 'light' ? '#FCFCFB': shadePalette.grey[100],
-      recentDiscussionThread: shadePalette.type === 'light' ? "#FCFCFB" : shadePalette.grey[100],
-    },
-    header: {
-      // text: "#f8f8f8",
-      // text: shadePalette.type === 'light' ? shadePalette.grey[0] : "#FCFCFB",
-      // fontSize: "2.0rem",
-      background: shadePalette.type === 'light' ? '#F2F2EF' : shadePalette.grey[50],
-      // background: shadePalette.grey[900],
-    },
   }),
   make: (palette: ThemePalette) => ({
     typography: {
       fontFamily: sansSerifStack,
-      fontDownloads: ['https://fonts.googleapis.com/css2?family=Bokor&family=Expletus+Sans:ital,wght@1,600&family=Yatra+One&display=swap',
-                      'https://use.typekit.net/ufy6jqt.css',
-                      'https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;1,400&display=swap'],
       postStyle: {
         fontFamily: serifStack,
       },
-      postsItemTitle: {
-        fontFamily: sansSerifStack,
-      },
       headerStyle: {
-        fontFamily: sansSerifStack,
-        // fontFamily: "arial",
+        fontFamily: serifStack,
       },
       caption: {
         // captions should be relative to their surrounding content, so they are unopinionated about fontFamily and use ems instead of rems
@@ -105,19 +68,18 @@ export const lessWrongTheme: SiteThemeSpecification = {
         color: palette.error.main,
         fontFamily: sansSerifStack
       },
-      // headline: {
-      //   fontFamily: 'Diplomata SC',
-      // },
+      headline: {
+        fontFamily: serifStack,
+      },
       subheading: {
         fontFamily: serifStack,
       },
       title: {
-        // fontFamily: 'cabazon',
-        fontFamily: 'Mechanics Regular',
-        // fontSize: "25px !important",
-        // fontWeight: 700,
-        // fontFamily: serifStack,
-        // fontWeight: 10,
+        fontFamily: serifStack,
+        fontWeight: 500,
+      },
+      uiSecondary: {
+        fontFamily: serifStack,
       },
     },
     overrides: {
