@@ -1,0 +1,21 @@
+{
+  "public": {
+    "forumType": "default",
+    "title": "Kaini",
+    "tagline": "Kaini",
+    "logoUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_png/LessWrong_Logo_skglnw.svg",
+    "siteNameWithArticle": "Kaini",
+    "siteUrl": "https://Kaini.network",
+    "aboutPostId": "dummyId",
+    "faviconUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1497915096/favicon_lncumn.ico",
+    "forumSettings": {
+      "headerTitle": "კაინი",
+      "shortForumTitle": "კ",
+      "tabTitle": "Kaini"
+    },
+    "analytics": {
+      "environment": "production"
+    },
+    "testServer": false
+  }
+}
