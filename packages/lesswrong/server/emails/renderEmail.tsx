@@ -127,7 +127,7 @@ function addEmailBoilerplate({ css, title, body }: {
 //     limited and inconsistent subset is supported by mail clients
 //
 
-const defaultEmailSetting = new DatabaseServerSetting<string>('defaultEmail', "info@em8171.underpass.network")
+const defaultEmailSetting = new DatabaseServerSetting<string>('defaultEmail', "info@underpass.network")
 
 export async function generateEmail({user, to, from, subject, bodyComponent, boilerplateGenerator=addEmailBoilerplate}: {
   user: DbUser | null,
