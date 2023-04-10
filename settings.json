@@ -5,7 +5,7 @@
     "tagline": "Kaini",
     "logoUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_png/LessWrong_Logo_skglnw.svg",
     "siteNameWithArticle": "Kaini",
-    "siteUrl": "https://Kaini.network",
+    "siteUrl": "https://underpass.network",
     "aboutPostId": "dummyId",
     "faviconUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1497915096/favicon_lncumn.ico",
     "forumSettings": {
@@ -16,7 +16,6 @@
     "analytics": {
       "environment": "production"
     },
-    "mailUrl": "smtps://apikey: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@smtp.sendgrid.net:465",
     "testServer": false
   }
 }
