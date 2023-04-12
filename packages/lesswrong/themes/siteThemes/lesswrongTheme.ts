@@ -13,6 +13,7 @@ const sansSerifStack = [
   'Open Sans',
   'Tahoma',
   'Geneva',
+  'FiraGO',
   '"Helvetica Neue"',
   'Helvetica',
   'Arial',
@@ -29,6 +30,7 @@ const serifStack = [
   '"Palatino Linotype"',
   '"Palatino LT STD"',
   '"Book Antiqua"',
+  'FiraGO',
   'Georgia',
   'serif'
 ].join(',')
@@ -77,9 +79,9 @@ export const lessWrongTheme: SiteThemeSpecification = {
   make: (palette: ThemePalette) => ({
     typography: {
       fontFamily: sansSerifStack,
-      fontDownloads: ['https://fonts.googleapis.com/css2?family=Bokor&family=Expletus+Sans:ital,wght@1,600&family=Yatra+One&display=swap',
-                      'https://use.typekit.net/ufy6jqt.css',
-                      'https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;1,400&display=swap'],
+      fontDownloads: ['https://use.typekit.net/ufy6jqt.css',
+                      'https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;1,400&display=swap',
+                      'https://free.bboxtype.com/embedfonts/?family=FiraGO:400,400i,700,700i'],
       postStyle: {
         fontFamily: serifStack,
       },

@@ -27,6 +27,7 @@ const styles = (theme: ThemeType): JssStyles => ({
     wordBreak: "break-word"
   },
   title: {
+    ...theme.typography.postsItemTitle,
     marginBottom: 0
   }
 })
