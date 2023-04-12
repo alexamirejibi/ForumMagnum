@@ -22,7 +22,7 @@ dump/
 dump/*
 mongod --dbpath ./myLocalDatabase
 
-### settings*.json
+settings*.json
 
 .idea
 .tern-project

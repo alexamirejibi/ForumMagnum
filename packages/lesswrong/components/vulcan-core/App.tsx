@@ -13,7 +13,7 @@ import { MessageContext } from '../common/withMessages';
 import type { RouterLocation } from '../../lib/vulcan-lib/routes';
 import { TimeOverride, TimeContext } from '../../lib/utils/timeUtil';
 
-export const siteImageSetting = new DatabasePublicSetting<string>('siteImage', 'https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg') // An image used to represent the site on social media
+export const siteImageSetting = new DatabasePublicSetting<string>('siteImage', 'https://media.discordapp.net/attachments/1006204324025741313/1094735157921071174/sandman_informational_terrain_informational_fields_soviet_propa_266c3c8a-4ae9-4ec0-8297-0c09f72e757f.png') // An image used to represent the site on social media
 
 interface ExternalProps {
   apolloClient: any
