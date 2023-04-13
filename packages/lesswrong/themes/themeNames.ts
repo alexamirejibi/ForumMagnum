@@ -101,7 +101,7 @@ export function getForumType(themeOptions: AbstractThemeOptions) {
 
 export const defaultThemeOptions = new DeferredForumSelect({
   EAForum: {name: "auto"},
-  default: {name: "dark"},
+  default: {name: "auto"},
 } as const);
 
 export const getDefaultThemeOptions = (): AbstractThemeOptions =>
