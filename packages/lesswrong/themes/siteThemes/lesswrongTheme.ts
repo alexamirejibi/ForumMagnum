@@ -59,20 +59,20 @@ export const lessWrongTheme: SiteThemeSpecification = {
     },
     background: {
       // if shade.Pale
-      default: shadePalette.type === 'light' ? '#F2F2EF' : shadePalette.grey[50],
+      default: shadePalette.type === 'light' ? '#F2F2EF' : shadePalette.grey[30],
       // primaryDim: '#e2f1f4',
       // paper: shadePalette.type === 'light' ? '#F2F2EF' : shadePalette.grey[200],
-      pageActiveAreaBackground: shadePalette.type === 'light' ? '#FCFCFB' : shadePalette.grey[50],
+      pageActiveAreaBackground: shadePalette.type === 'light' ? '#FCFCFB' : shadePalette.grey[30],
     },
     panelBackground: {
-      default: shadePalette.type === 'light' ? '#FCFCFB': shadePalette.grey[100],
-      recentDiscussionThread: shadePalette.type === 'light' ? "#FCFCFB" : shadePalette.grey[100],
+      default: shadePalette.type === 'light' ? '#FCFCFB': shadePalette.grey[55],
+      recentDiscussionThread: shadePalette.type === 'light' ? "#FCFCFB" : shadePalette.grey[55],
     },
     header: {
       // text: "#f8f8f8",
       // text: shadePalette.type === 'light' ? shadePalette.grey[0] : "#FCFCFB",
       // fontSize: "2.0rem",
-      background: shadePalette.type === 'light' ? '#F2F2EF' : shadePalette.grey[50],
+      background: shadePalette.type === 'light' ? '#F2F2EF' : shadePalette.grey[30],
       // background: shadePalette.grey[900],
     },
   }),
