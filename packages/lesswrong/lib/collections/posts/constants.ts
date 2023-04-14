@@ -63,5 +63,5 @@ export const idSettingIcons = new Map([
   [reviewPostIdSetting as DatabasePublicSetting<string | null>, StarIcon]
 ]);
 
-export const sideCommentFilterMinKarma = 10;
+export const sideCommentFilterMinKarma = 3;
 export const sideCommentAlwaysExcludeKarma = -1;

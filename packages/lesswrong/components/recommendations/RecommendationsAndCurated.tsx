@@ -86,6 +86,7 @@ const getFrontPageOverwrites = (haveCurrentUser: boolean): Partial<Recommendatio
 }
 
 const isLW = forumTypeSetting.get() === 'LessWrong'
+// const isLW = true
 
 const RecommendationsAndCurated = ({
   configName,
