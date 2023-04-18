@@ -40,7 +40,7 @@ const styles = (theme: ThemeType): JssStyles => ({
       } : {
         paddingTop: 7,
         paddingBottom: 8,
-        paddingLeft: 28,
+        paddingLeft: 16,
         paddingRight: 16,
       }
     ),

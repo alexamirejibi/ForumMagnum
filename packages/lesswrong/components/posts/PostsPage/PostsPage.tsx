@@ -92,7 +92,9 @@ export const styles = (theme: ThemeType): JssStyles => ({
     marginRight: 'auto',
     marginBottom: theme.spacing.unit *3
   },
-  postContent: {}, //Used by a Cypress test
+  postContent: {
+    lineHeight: "2.4rem"
+  }, //Used by a Cypress test
   commentsSection: {
     minHeight: 'calc(70vh - 100px)',
     [theme.breakpoints.down('sm')]: {

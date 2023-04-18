@@ -59,7 +59,7 @@ const styles = (theme: ThemeType): JssStyles => ({
     // color: theme.palette.header.text,
     // color: "#21201A",
     // fontSize: 35,
-    fontSize: 40,
+    fontSize: 35,
     '&:hover, &:focus, &:active': {
       textDecoration: 'none',
       opacity: 0.7,
