@@ -3,7 +3,7 @@ import { defaultThemeOptions } from "../themeNames";
 const sansSerifStack = [
   'GreekFallback', // Ensures that greek letters render consistently
   // 'apolline',
-  'Calibri',
+  // 'Calibri',
   '"Gill Sans"',
   '"Gill Sans MT"',
   "Myriad Pro",
@@ -21,7 +21,7 @@ const sansSerifStack = [
 ].join(',')
 
 const serifStack = [
-  'Alegreya',
+  // 'Alegreya',
   'apolline',
   // "Grenze",
   'warnock-pro',
