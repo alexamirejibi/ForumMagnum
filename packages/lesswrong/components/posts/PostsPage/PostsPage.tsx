@@ -93,7 +93,7 @@ export const styles = (theme: ThemeType): JssStyles => ({
     marginBottom: theme.spacing.unit *3
   },
   postContent: {
-    lineHeight: "2.4rem"
+    lineHeight: "2rem"
   }, //Used by a Cypress test
   commentsSection: {
     minHeight: 'calc(70vh - 100px)',
