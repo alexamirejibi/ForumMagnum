@@ -1,11 +1,11 @@
 import { defaultThemeOptions } from "../themeNames";
 
 const sansSerifStack = [
-  'GreekFallback', // Ensures that greek letters render consistently
   // 'apolline',
   // 'Calibri',
   '"Gill Sans"',
   '"Gill Sans MT"',
+  'GreekFallback', // Ensures that greek letters render consistently
   "Myriad Pro",
   'Myriad',
   '"Liberation Sans"',
@@ -13,8 +13,8 @@ const sansSerifStack = [
   'Open Sans',
   'Tahoma',
   'Geneva',
-  'FiraGO',
   '"Helvetica Neue"',
+  'FiraGO',
   'Helvetica',
   'Arial',
   'sans-serif'
@@ -30,6 +30,7 @@ const serifStack = [
   '"Palatino Linotype"',
   '"Palatino LT STD"',
   '"Book Antiqua"',
+  '"Helvetica Neue"',
   'FiraGO',
   'Georgia',
   'serif'
@@ -86,7 +87,7 @@ export const lessWrongTheme: SiteThemeSpecification = {
         fontFamily: serifStack,
       },
       postsItemTitle: {
-        fontFamily: sansSerifStack,
+        fontFamily: serifStack,
       },
       headerStyle: {
         fontFamily: sansSerifStack,
