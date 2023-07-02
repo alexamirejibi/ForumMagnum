@@ -87,7 +87,7 @@ export const lessWrongTheme: SiteThemeSpecification = {
         fontFamily: serifStack,
       },
       postsItemTitle: {
-        fontFamily: serifStack,
+        fontFamily: sansSerifStack,
       },
       headerStyle: {
         fontFamily: sansSerifStack,
